@@ -35,11 +35,7 @@
     .food {
         background-image: none;
         img {
-            position: relative;
-            right: 10px;
-            width: 300px;
-            z-index: -1;
-            bottom: 0;
+            display: none;
         }
     }
     .foodRestaurant {
