@@ -1,0 +1,357 @@
+@media (max-width:1340px) {
+    .container {
+        max-width: 720px;
+    }
+    // --------------header----------------------
+    .deliver {
+        display: block;
+        img {
+            margin: auto;
+            display: block;
+            padding-bottom: 20px;
+            width: 200px;
+        }
+        @keyframes example {
+            from {position: relative;
+            left: -600px;}
+            to {position: relative;
+            left: 0;}
+        }
+        .deliverList {
+            margin: auto;
+            flex-wrap: wrap;
+            width: 500px;
+            justify-content: center;
+            li {
+                font-size: 20px;
+                button {
+                    margin-top: 20px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    //-----------menu------------------
+    .food {
+        background-image: none;
+        img {
+            position: relative;
+            right: 10px;
+            width: 300px;
+            z-index: -1;
+            bottom: 0;
+        }
+    }
+    .foodRestaurant {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
+        width: 600px;
+        li {
+            padding-bottom: 20px;
+        }
+    }
+    @keyframes foodblog {
+        from {bottom: -500px;}
+        to {bottom: 0px;}
+    }
+    .foodList {
+        flex-wrap: wrap;
+        .foodListCard {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+    }
+    .foodBurger {
+        overflow: hidden;
+    }
+    .foodDeliciousButton:nth-child(3) {
+        padding-bottom: 60px;
+    }
+    .burgerImages img:first-child  {
+        display: none;
+    }
+    .burgerImages img:last-child  {
+        top: 0;
+        right: 0;
+    }
+    .buttonCenter {
+        padding-bottom: 100px;
+    }
+    .fastfood {
+        flex-direction: column;
+    }
+    .fastfoodImages {
+        left: 0;
+        li {
+            padding-bottom: 50px;
+        }
+    }
+    .fastfood .fastfoodDelicious {
+        padding: 100px 0;
+    }
+    .hassle .hassleBlog {
+        width: 500px;
+        height: 500px;
+        margin-right: 20px;
+    }
+    .hasslefree:last-child {
+        margin-right: 20px;
+    }
+    .hasslefree {
+        width: 553px;
+        padding-top: 0;
+    }
+    .hassle .hassleBlog img:nth-child(2) {
+        position: relative;
+        left: 60px;
+        bottom: 184px;
+        width: 250px;
+    }
+    .hassle .hassleBlog img:first-child {
+        position: relative;
+        top: 170px;
+        left: 90px;
+        z-index: 1;
+        width: 237px;
+    }
+    .clients {
+        flex-direction: column;
+        align-items: center;
+    }
+    .clients ul li:nth-child(2) {
+        padding-bottom: 20px;
+    }
+    .hassle:nth-child(2) {
+        margin-bottom: 0;
+    }
+    .clientsList {
+        flex-wrap: wrap;
+    }
+    .clientsCard {
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .clientsList:last-child {
+        padding-bottom: 50px;
+    }
+    .deliverX ul li:last-child {
+        font-size: 16px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .deliverX {
+        flex-direction: column;
+    }
+    .background:last-child {
+        margin-bottom: 20px;
+    }
+    .deliverXmenu .footerList ul {
+        padding: 62px 92px 0 40px;
+    }
+    .available .availableList {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:720px) {
+    main {
+        text-align: center;
+    }
+    .container {
+        max-width: 340px;
+    }
+    .deliver img {
+        width: 250px;
+    }
+    .deliver .deliverList {
+        width: auto;
+    }
+    .deliverList li .register {
+        padding: 19px 55px;
+    }
+    .deliver .deliverList li button {
+        margin-top: 0;
+    }
+    .deliverList li a {
+        padding: 0 50px;
+    }
+    .foodDelicious {
+        position: relative;
+        animation-name: delicious;
+        animation-duration: 2s;
+    }
+    @keyframes delicious {
+        from {position: relative; bottom: -400px;}
+        to {position: relative; bottom: 0;}
+    }
+    .deliver .deliverList li {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .deliver .deliverList {
+        flex-direction: column;
+    }
+    .food img {
+        display: none;
+    }
+    .food img {
+        display: none;
+    }
+    .foodDelicious h1 {
+        font-size: 50px;
+        width: 300px;
+    }
+    .foodDelicious p {
+        width: 300px;
+    }
+    .foodDelicious p span {
+        padding-left: 20px;
+    }
+    .foodDeliciousButton {
+        width: 300px;
+        button:last-child {
+            padding: 26px 56px;
+            margin-top: 20px;
+        }
+    }
+    .foodDeliciousplus {
+        flex-direction: column;
+    }
+    .foodRestaurant {
+        width: auto;
+        justify-content: center;
+    }
+    .foodRestaurant {
+        padding-bottom: 50px;
+    }
+    .foodWork h2 {
+        width: auto;
+    }
+    .foodWork span {
+        left: 0;
+    }
+    .foodWork {
+        padding: 100px 0 80px 0;
+    }
+    .foodDeliciousButton button:last-child {
+        padding: 26px 58px;
+    }
+    .foodDeliciousButton:nth-child(3) {
+        width: auto;
+    }
+    .foodBurgerDeliver {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foodBurger {
+        padding-top: 100px;
+    }
+    .burgerImages img:last-child {
+        display: none;
+    }
+    .burgerdeliverList {
+        flex-direction: column;
+        width: auto;
+    }
+    .bergurdeliverMenu {
+        width: 270px;
+        padding-bottom: 50px;
+    }
+    .foodBurgerDeliver .learnDeliver {
+        width: auto;
+    }
+    .foodBurgerDeliver span {
+        padding-left: 0;
+    }
+    .foodWork h2 {
+        font-size: 40px;
+    }
+    .fastfoodDelicious p span {
+        left: 20px;
+    }
+    .fastfoodImages ul:first-child {
+        margin-right: 20px;
+        display: none;
+    }
+    .fastfoodDelicious {
+        width: auto;
+    }
+    .fastfoodDelicious button {
+        margin-right: 0;
+    }
+    .foodDeliciousButton button:first-child {
+        margin-right: 0;
+    }
+    .learndeliverList {
+        flex-direction: column;
+    }
+    .learndeliverList ul {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    .foodDeliciousButton {
+        width: 259px;
+    }
+    .hassle .hassleBlog {
+        display: none;
+    }
+    .clients ul li:nth-child(2) {
+        width: auto;
+    }
+    .clients .clientsbutton {
+        flex-direction: column;
+        align-items: normal;
+    }
+    .clients ul li:nth-child(2) span {
+        left: 10px;
+    }
+    .clientsCard .clientsbio div {
+        left: 20px
+    }
+    .clients .clientsbutton button {
+        margin-bottom: 20px;
+    }
+    
+    .duplierBlog {
+        display: none;
+    }
+    .fastfoodDelicious {
+        margin-right: auto;
+    }
+    .deliverX ul {
+        width: auto;
+    }
+    .deliverX div button {
+        padding: 0;
+        width: 300px;
+        margin-right: auto;
+        height: 75px;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    .deliverX div button:last-child {
+        margin-left: auto;
+    }
+    .deliverXmenu {
+        flex-direction: column;
+        text-align: center;
+    }
+    .deliverXmenu .footerList ul {
+        padding: 62px 0px 36px 0px;
+    }
+    .deliverXmenu .footerList {
+        flex-direction: column;
+    }
+    .brix ul {
+        flex-direction: column;
+    }
+    .foodDeliciousButton {
+        width: auto;
+    }
+    .clients {
+        padding: 80px 0;
+    }
+}

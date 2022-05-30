@@ -1,0 +1,766 @@
+.food {
+    display: flex;
+    padding-top: 162px;
+    background-image: url(../img/food.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    img {
+        position: relative;
+        left: 100px;
+        animation-name: foodblog;
+        animation-duration: 2s;
+    }
+    @keyframes foodblog {
+        from {position: relative; bottom: -200px;}
+        to {position: relative; bottom: 0;}
+    }
+}
+
+.foodDelicious {
+    a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+        color: #FF5634;
+    }
+    h1 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 72px;
+        color: #121212;
+        width: 515px;
+        padding-top: 25px;
+    }
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        color: #656565;
+        width: 574px;
+        padding-top: 16px;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #656565;
+            padding-left: 376px;
+        }
+    }
+}
+
+.foodDeliciousButton {
+    padding-top: 33px;
+    padding-bottom: 60px;
+    width: 576px;
+    border-bottom: 1px solid #CACACA;
+    button:first-child {
+        background: #FF5634;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 1px solid #FF5634;
+        box-sizing: border-box;
+        border-radius: 16px;
+        padding: 26px 39px;
+        margin-right: 27px;
+        &:hover {
+            background: #e24d2f;
+        }
+    }
+    button:last-child {
+        background: #FFFFFF;
+        border: 1px solid #EDEDED;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+        border-radius: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #121212;
+        padding: 26px 39px;
+        &:hover {
+            background: #ecebeb;
+        }
+    }
+}
+
+.foodDeliciousplus {
+    padding-top: 60px;
+    display: flex;
+    ul:nth-child(2){
+        li{
+            span {
+                padding-left: 24px;
+            }
+        }
+    }
+}
+
+.foodDeliciouslist {
+    margin-right: 48px;
+    li:first-child {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 66px;
+        color: #121212;
+        span {
+            color: #FF5634;
+        }
+    }
+    li:last-child {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        color: #656565;
+        padding-top: 4px;
+    }
+}
+
+.foodtheworld {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #656565;
+    padding-top: 200px;
+    span {
+        padding-left: 20px;
+    }
+}
+
+.foodRestaurant {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 50px;
+    left: 0;
+    padding-bottom: 150px;
+    border-bottom: 1px solid #CACACA;
+    animation-name: restaurant;
+    animation-duration: 2s;
+}
+@keyframes restaurant {
+    from{left: -400px;}
+    to {left: 0;}
+}
+
+.foodWork {
+    padding: 200px 0 80px 0;
+    text-align: center;
+}
+
+.foodWork {
+    a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+        color: #FF5634;
+    }
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+        text-align: center;
+        color: #121212;
+        margin: auto;
+        width: 520px;
+    }
+    p {
+        padding-top: 22px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        color: #656565;
+    }
+    span {
+        position: relative;
+        left: 180px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #656565;
+    }
+}
+
+.foodList {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 53px;
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(2) {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            text-align: center;
+            color: #121212;
+            width: 300px;
+            margin: auto;
+            padding-top: 55px;
+        }
+        &:nth-child(3) {
+            font-family: 'Roboto';
+            padding-top: 15px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #656565;
+        }
+    }
+}
+
+
+.foodDeliciousButton:nth-child(3) {
+    margin: auto;
+    width: 460px;
+    padding: 0 0 200px 0;
+    border-bottom: none;
+}
+
+.foodBurger {
+    padding-top: 235px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.foodBurgerDeliver {
+    padding-top: 30px;
+    width: 600px;
+    .learnDeliver{
+        width: 510px;
+    }
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+        color: #121212;
+        padding-bottom: 16px;
+    }
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        color: #656565;
+    }
+    span {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #656565;
+        padding-left: 280px;
+    }
+}
+
+.burgerdeliverList {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.bergurdeliverMenu {
+    width: 270px;
+    li:nth-child(2) {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #121212;
+        padding: 24px 0 14px 0;
+    }
+    li:nth-child(3) {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #656565;
+    }
+    .turole {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #656565;
+        text-align: center;
+    }
+}
+
+.bergurdeliverMenu:last-child{
+    li:nth-child(2) {
+        padding-top: 15px;
+    }
+}
+
+.burgerdeliverList:last-child{
+    ul:first-child {
+        padding-top: 15px;
+    }
+}
+
+.burgerImages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    img:first-child {
+        z-index: 10;
+        position: absolute;
+    }
+    img:last-child {
+        position: relative;
+        top: 70px;
+        right: 310px;
+    }
+}
+
+.buttonCenter {
+    margin: auto;
+    width: 460px;
+    padding: 0 0 200px 0;
+    border: none;
+}
+
+.background {
+    background-color: #121212;
+    display: flex;
+    justify-content: flex-end;
+    overflow: auto;
+}
+
+
+.fastfood {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fastfoodDelicious {
+    padding: 270px 0;
+    color: #CACACA;
+    width: 541px;
+    margin-right: 80px;
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 66px;
+        color: #FFFFFF;
+        padding-bottom: 15px;
+    }
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        color: #FFFFFF;
+        padding-bottom: 27px;
+        span {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #FFFFFF;
+            position: relative;
+            bottom: 5px;
+            left: 270px;
+        }
+    }
+    button {
+        background: #FF5634;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 1px solid #FF5634;
+        box-sizing: border-box;
+        border-radius: 16px;
+        padding: 26px 39px;
+        margin-right: 27px;
+        &:hover {
+            background: #e24d2f;
+        }
+    }
+}
+
+.fastfoodImages{
+    display: flex;
+    position: relative;
+    left: 74px;
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &:first-child {
+            margin-right: 20px;
+        }
+    }
+} 
+
+.learndeliverList {
+    display: flex;
+    justify-content: space-between;
+    &:last-child{
+        padding: 85px 0 50px 0;
+    }
+    ul {
+        width: 344px;
+        li {
+            &:first-child {
+                padding-bottom: 24px;
+                display: flex;
+                justify-content: center;
+            }
+            &:nth-child(2) {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+                color: #121212;
+                padding-bottom: 21px;
+            }
+            &:last-child {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                /* or 167% */
+
+                text-align: center;
+
+                color: #656565;
+            }
+        }
+    }
+}
+
+.hassle {
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    &:nth-child(2) {
+        flex-direction: row-reverse;
+        margin-bottom: 478px;
+    }
+    .hassleBlog {
+        width: 598px;
+        height: 689px;
+        background: #FF5634;
+        border-radius: 32px;
+        position: relative;
+        img {
+            &:first-child {
+                position: relative;
+                top: 224px;
+                left: 197px;
+                z-index: 1;
+            }
+            &:nth-child(2) {
+                position: relative;
+                left: 60px;
+                bottom: 260px;
+            }
+        }
+    }
+}
+
+.hasslefree {
+    width: 553px;
+    padding-top: 150px;
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+        color: #121212;
+        padding-bottom: 10px;
+    }
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #656565;
+        padding-bottom: 33px;
+        span {
+            position: relative;
+            bottom: 7px;
+            left: 10px;
+        }
+    }
+}
+
+.hasslePos {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    img {
+        padding-right: 45px;
+    }
+    ul {
+        li{
+            &:first-child {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 34px;
+                color: #121212;
+                padding-bottom: 14px;
+            }
+            &:nth-child(2) {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 30px;
+                color: #656565;
+            }
+        }
+    }
+}
+
+.clients {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 51px;
+    ul {
+        li{
+            &:first-child {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 44px;
+                line-height: 54px;
+                color: #121212;
+                padding-bottom: 22px;
+                span {
+                    padding-right: 30px;
+                }
+            }
+            &:nth-child(2) {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 30px;
+                color: #656565;
+                width: 465px;
+                span {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #656565;
+                    position: relative;
+                    bottom: 7px;
+                    left: 255px;
+                }
+            }
+        }
+    }
+    .clientsbutton {
+        display: flex;
+        align-items: flex-end;
+        button {
+            background: #FF5634;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            border: 1px solid #FF5634;
+            box-sizing: border-box;
+            border-radius: 16px;
+            padding: 26px 39px;
+            margin-right: 27px;
+            &:hover {
+                background: #e24d2f;
+            }
+        }
+        button:last-child {
+            background: #FFFFFF;
+            border: 1px solid #EDEDED;
+            box-sizing: border-box;
+            box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+            border-radius: 16px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            color: #121212;
+            padding: 26px 39px;
+            &:hover {
+                background: #ecebeb;
+            }
+        }
+    }
+}
+
+.mainbackground {
+    background: #FAFAFA;
+}
+
+.clientsList {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 28px;
+    &:last-child {
+        padding-bottom: 303px;
+    }
+}
+
+.clientsCard {
+    display: block;
+    width: 380px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 12px rgba(16, 16, 16, 0.08);
+    border-radius: 24px;
+    padding: 40px 40px 42px 33px;
+    p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #656565;
+        span {
+            position: relative;
+            left: 10px;
+            bottom: 7px;
+        }
+    }
+    .clientsbio {
+        display: flex;
+        padding-bottom: 30px;
+        align-items: center;
+        div {
+            width: 36px;
+            height: 36px;
+            background: #EEF8FF;
+            border-radius: 8px;
+            position: relative;
+            left: 110px;
+        }
+        ul {
+            padding-left: 10px;
+            li {
+                &:first-child {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: #121212;
+                    padding-bottom: 6px;
+                }
+                &:nth-child(2) {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #FF5634;
+                }
+            }
+        }
+    }
+}
+
+.fastfood{
+    .fastfoodDelicious {
+        padding: 170px 0;
+    }
+}
+
+.background:last-child {
+    overflow: inherit;
+    margin-bottom: 70px;
+}
+
+.duplierBlog {
+    display: flex;
+    width: 670px;
+    position: relative;
+    bottom: 100px;
+    img {
+        &:first-child {
+            position: absolute;
+            left: 170px;
+        }
+        &:last-child {
+            position: relative;
+            right: 50px;
+        }
+    }
+}
+
+
+
+
+

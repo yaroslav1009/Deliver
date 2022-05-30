@@ -1,0 +1,35 @@
+@import "reset.scss";
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+body {
+    background-color: white;
+    animation-name: body;
+    animation-duration: 4s;
+}
+@keyframes body {
+    from {background-color: #FF5634;}
+    to {background-color: white;}
+}
+$linkService: #FF5634;
+ 
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hrline {
+    border-bottom: 1px solid #CACACA;
+}
+
+@import "adaptive.scss";
